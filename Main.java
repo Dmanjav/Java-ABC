@@ -36,5 +36,20 @@ public class Main {
 
        System.out.println("Hello " + stringText);
        System.out.println(intNumber + floatNumber);
+
+       //Para declarar variables hay muchas formas
+        int x = 5, y = 6, z = 50;
+        System.out.println(x + y + z);
+
+        //Si quiero que tengan el mismo valor
+        int a, b, c;
+        a = b = c = 5;
+        System.out.println(a + b + c);
+
+        //Si me sé el código ASCII de un caracter lo puedo poner en un char
+        char ax = 65, bx = 66, cx = 67;
+        System.out.println(ax); //Esto es A
+        System.out.println(bx);
+        System.out.println(cx);
     }
 }

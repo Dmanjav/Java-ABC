@@ -1,4 +1,4 @@
-public class Condititonals {
+public class Conditionals {
 
     public static void main(String args[]) {
     int x = 30;

@@ -10,7 +10,7 @@ public class TestStudent {
         estudiante1.setStudentId("1024");
         estudiante1.setStudentName("Luis Pérez");
         estudiante1.setCollegeName("Instituto Nacional de Tecnología");
-        estudiante1.setAddress("Av. Los Libertadores #45");
+        estudiante1.setAdd("Av. Los Libertadores #45");
 
         System.out.println("---------------------------------------------");
 
@@ -18,7 +18,7 @@ public class TestStudent {
         System.out.println("-> Verificando y mostrando los datos:");
         System.out.println("ID del Estudiante: " + estudiante1.getStudentId());
         System.out.println("Nombre: " + estudiante1.getStudentName());
-        System.out.println("Dirección: " + estudiante1.getAddress());
+        System.out.println("Dirección: " + estudiante1.getAdd());
         System.out.println("Nombre de la Universidad: " + estudiante1.getCollegeName());
         
         System.out.println("---------------------------------------------");

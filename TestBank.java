@@ -12,6 +12,4 @@ public class TestBank {
         sbi.getRateOfInterest(); 
         pnb.getRateOfInterest();
     }
-}public class TestBank {
-
 }

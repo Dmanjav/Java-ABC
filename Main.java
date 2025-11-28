@@ -27,7 +27,7 @@ public class Main {
         System.out.println(booleanText);
 
         // The final, it works as "final" or "const" in other languages
-        final int finalNumber = 5;
+        // final int finalNumber = 5;
         // finalNumber = 6; //This will throw an error
         /*
         error: cannot assign a value to final variable finalNumber

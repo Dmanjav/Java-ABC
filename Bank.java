@@ -13,7 +13,7 @@ public class Bank {
         System.out.println("El interes del banco " + bankName + " es de " + interest);
     }
 
-    public static void Main(String args[]){
+    public static void main(String args[]){
         Bank bank1 = new Bank("SBI", 8);
         bank1.getRateOfInterest();
         Bank bank2 = new Bank("ICICI", 7);
